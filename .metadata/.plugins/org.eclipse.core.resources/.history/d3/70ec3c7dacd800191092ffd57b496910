@@ -1,0 +1,13 @@
+package org.action.sample;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Sample {
+	
+	@Test
+	public void sampleaction() {
+		WebDriver driver=new ChromeDriver();
+	}
+
+}

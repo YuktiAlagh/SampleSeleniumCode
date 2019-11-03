@@ -1,0 +1,6 @@
+package org.test.oops;
+
+public abstract class A {
+ 
+	abstract void test();
+}

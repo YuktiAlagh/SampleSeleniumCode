@@ -1,0 +1,8 @@
+package org.test.oops;
+
+public class A {
+ 
+	public abstract void sum();
+	
+	abstract public void sub();
+}

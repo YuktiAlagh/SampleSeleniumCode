@@ -1,0 +1,9 @@
+package org.act.sample;
+
+public class ActClass {
+
+	@Test
+	public void test() {
+		WebDriver driver=new ChromeDriver();
+	}
+}

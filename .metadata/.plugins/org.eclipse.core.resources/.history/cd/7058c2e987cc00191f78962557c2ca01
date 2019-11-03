@@ -1,0 +1,34 @@
+package org.mymavenproject;
+
+import java.io.File;
+
+
+public class DataSet {
+	
+	@DataProvider (name = "data")
+	public Object[][] dataSet() {
+		Object[][] obj = null;
+		try {
+			File file = new File("");
+			Workbook workbook = Workbook.getWorkbook(file);
+			Sheet sh = workbook.getSheet(0);
+			int rows = sh.getRows();
+			int columns = sh.getColumns();
+			obj=new Object[rows][columns];
+			
+			for(int i=0;i<rows;i++)
+			{
+				for(int j=0;j<columns;j++)
+				{
+					Cell cell = sh.getCell(j,i);
+					obj[i][j]=cell.getContents();
+				}
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		return obj;
+	}
+
+}

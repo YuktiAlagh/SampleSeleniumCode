@@ -1,0 +1,26 @@
+package org.sample.test;
+
+public class SampleTest {
+	/*public static void main(String args[])
+	{
+		int a=10;
+		int b=20;
+		int c=a+b;
+		System.out.println(c);	
+	}
+*/
+	public static void main(String args[])
+	{
+		fibonacciDisplay();
+	}
+	public static void fibonacciDisplay()
+	{
+		int i,n;
+		for (i=0; i<=7;i++)
+		{
+			n=i-1;			
+		}
+		System.out.println(n+" ");	
+		
+	}
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-03T05:22:53Z" name="Default suite" finished-at="2019-11-03T05:23:06Z" duration-ms="13086">
+    <groups>
+    </groups>
+    <test started-at="2019-11-03T05:22:53Z" name="Default test" finished-at="2019-11-03T05:23:06Z" duration-ms="13086">
+      <class name="org.gogle.login.loc.HiGogle">
+        <test-method signature="login()[pri:0, instance:org.gogle.login.loc.HiGogle@17f7cd29]" started-at="2019-11-03T05:22:53Z" name="login" finished-at="2019-11-03T05:23:06Z" duration-ms="13008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- org.gogle.login.loc.HiGogle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

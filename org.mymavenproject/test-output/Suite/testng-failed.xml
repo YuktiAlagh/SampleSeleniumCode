@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.mymavenproject.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+        <include name="Sanity"/>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.mymavenproject.TestNGSample">
+        <methods>
+          <include name="sample2"/>
+        </methods>
+      </class> <!-- org.mymavenproject.TestNGSample -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

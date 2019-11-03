@@ -1,0 +1,10 @@
+package org.action.sample;
+
+public class Sample {
+	
+	@Test
+	public void sampleaction() {
+		
+	}
+
+}

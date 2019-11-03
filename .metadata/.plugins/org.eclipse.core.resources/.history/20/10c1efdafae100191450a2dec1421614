@@ -1,0 +1,17 @@
+package org.test.oops;
+
+public class B extends A{
+
+	@Override
+	public void test() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void sum() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

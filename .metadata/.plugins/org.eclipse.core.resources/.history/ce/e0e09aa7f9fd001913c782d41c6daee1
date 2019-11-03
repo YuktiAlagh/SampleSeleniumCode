@@ -1,0 +1,13 @@
+package org.gogle.login.loc;
+
+import org.testng.annotations.Test;
+
+public class HiGogle {
+	
+	@Test
+	public void login(){
+		System.setProperty("Webdriver.chrome.driver","chromedriver.exe");
+	}
+	
+
+}

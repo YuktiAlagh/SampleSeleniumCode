@@ -1,0 +1,13 @@
+package org.ele.loc.rediff;
+
+import org.testng.annotations.Test;
+
+public class RediffTest {
+	
+	@Test
+	public void login() {
+		System.setProperty("Webdriver.chrome.driver", "chromedriver.exe");
+	}
+	
+
+}

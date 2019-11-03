@@ -1,0 +1,10 @@
+package org.action.pack;
+
+public class ActionClass {
+
+	@Test
+	public void sample() {
+		WebDriver driver=new ChromeDriver();
+		
+	}
+}

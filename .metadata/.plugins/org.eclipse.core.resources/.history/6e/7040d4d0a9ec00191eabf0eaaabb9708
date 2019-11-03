@@ -1,0 +1,19 @@
+package org.ele.loc.rediff;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class RediffTest {
+	
+	@Test
+	public void login() {
+		System.setProperty("Webdriver.chrome.driver", "chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.get("http://wwww.rediffmailcom");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, sec)
+	}
+	
+
+}
